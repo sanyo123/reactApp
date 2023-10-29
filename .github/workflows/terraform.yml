@@ -27,7 +27,7 @@ jobs:
 
       - name: Apply Terraform configuration
         run: terraform apply -auto-approve
-        working-directory: ./terraform
+        working-directory: /terraform
         id: terraform
 
       - name: Install AWS CLI
